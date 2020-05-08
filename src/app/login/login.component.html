@@ -1,1 +1,15 @@
-<p>login works!</p>
+<form class="form">
+    <div>
+        <input type="text" name="username" [(ngModel)]="username" placeholder="Enter username here...">
+    </div>
+    <div>
+        <input type="password" name="password" [(ngModel)]="password" placeholder="Enter password here...">
+    </div>
+    <div>
+        <button class="btn btn-primary">Login</button>
+        <a routerLink="/register">Register</a>
+    </div>
+
+
+
+</form>
