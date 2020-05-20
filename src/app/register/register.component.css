@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.h3 {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.buttonSize {
+    width: 170px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.myself .property{
+    width:45%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:right;
+    }
+  
+.myself .value{
+    text-align:left;
+    padding-left:70px;
+    width:55%;
+    display:inline-block;
+    box-sizing:border-box;
+    }

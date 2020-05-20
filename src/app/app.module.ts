@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HeaderComponent } from './Layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { AvioViewComponent } from './avio-view/avio-view.component';
+import { FilterComponent } from './avioViewComp/filter/filter.component';
+import { SortingBarComponent } from './avioViewComp/sorting-bar/sorting-bar.component';
+import { SearchBarComponent } from './avioViewComp/search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { FooterComponent } from './layout/footer/footer.component';
     RegisterComponent,
     HeaderComponent,
     FooterComponent,
+    AvioViewComponent,
+    FilterComponent,
+    SortingBarComponent,
+    SearchBarComponent,
 
   ],
   imports: [

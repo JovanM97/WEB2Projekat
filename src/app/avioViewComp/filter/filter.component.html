@@ -1,0 +1,45 @@
+<h3>Filter your search</h3>
+<div>
+    <label class="title">Stops:</label>
+    <br><br>
+    <input type="checkbox" name="radioNone">
+    <label class="value">None</label>
+    <br>
+    <input type="checkbox" name="radio1">
+    <label class="value">1</label>
+    <br>
+    <input type="checkbox" name="radio2Plus">
+    <label class="value">2+</label>
+    <br><br>
+
+    <label class="title">Cabin:</label>
+    <br><br>
+    <input type="checkbox" name="radioEconomy">
+    <label class="value">Economy</label>
+    <br>
+    <input type="checkbox" name="radioBusiness">
+    <label class="value">Business</label>
+    <br>
+    <input type="checkbox" name="radioFirstClass">
+    <label class="value">First Class</label>
+    <br><br>
+
+    <label class="title">Price</label>
+    <br>
+    <input type="range" name="rangePrice" [(ngModel)]="price" min="10" max="1000">
+    <br>
+    <label class="value">Value: </label>
+    <label id="labelPVal" > {{[price]}}</label>
+    <label>&nbsp;EUR</label>
+    <br><br>
+
+    <label class="title">Flight duration</label>
+    <br>
+    <input type="range" name="rangeFDuration"  [(ngModel)]="duration" min="10" max="1000" >
+    <br>
+    <label class="value">Value: </label>
+    <label id="labelPVal" > {{[duration]}}</label>
+    <label>&nbsp;min</label>
+    <br><br>
+
+</div>

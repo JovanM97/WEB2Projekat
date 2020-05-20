@@ -1,0 +1,15 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.h3 {
+    font-size: 200%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: burlywood;
+}
